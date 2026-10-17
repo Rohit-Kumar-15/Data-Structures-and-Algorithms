@@ -1,7 +1,8 @@
 class Solution:
-    def rotate(self, nums: List[int], k: int) -> None:
-        n = len(nums)
-        k %= n
-        for _ in range(k):
-            last = nums.pop()
-            nums.insert(0, last)
+    def runningSum(self, nums: list[int]) -> list[int]:
+        result = [nums[0]]
+
+        for i in range(1, len(nums)):
+            result.append(result[i-1] + nums[i])
+
+        return result
