@@ -8,3 +8,10 @@ class Solution:
         return nums
 
     print(sortArrayByParity([7,12,3,8]))
+
+"""
+we run a nested for loop and check if an odd no comes before an even if it does we swap their place
+
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+"""
