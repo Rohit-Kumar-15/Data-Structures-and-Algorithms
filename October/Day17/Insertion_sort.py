@@ -15,5 +15,5 @@ we start for index 1 and check if any of the previous element is greater if it i
 once we encounter a smaller element we place the current element in the index we checked before
 
 Time Complexity: O(n^2)
-Space Complexity: O(n)
+Space Complexity: O(1)
 """
