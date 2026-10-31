@@ -1,5 +1,5 @@
 class Solution:
-    def majorityElement(self, nums: list[int]) -> int:
+    def frequencyArray(self, nums: list[int]) -> int:
         element = {}
 
         for i in nums:
