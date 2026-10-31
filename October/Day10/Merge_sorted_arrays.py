@@ -15,5 +15,9 @@ class Solution:
             right -= 1
 
 """
-we have 3 pointers m which keeps track of
+we have 3 pointers m which keeps track of elemeents in nums1 n keeps track of elements in nums 2 and 
+right keeps track of element in nums1 array from the end. we chwck which element is greater and place it
+in n and decrement right
+
+Time Complexity: O(n+m)
 """

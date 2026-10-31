@@ -1,6 +1,5 @@
 class Solution:
     def reverseString(self, s: str) -> str:
-        # code here
         rs = ""
         l = len(s)-1
         while l>= 0:

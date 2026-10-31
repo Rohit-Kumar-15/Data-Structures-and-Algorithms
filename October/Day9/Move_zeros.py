@@ -7,7 +7,7 @@ class Solution:
                 l += 1
 
 """
-run 2 pointers ole keep track of z other checks if no i not zero then it swaps with zero pointer
+run 2 pointers one keep track of zeros other checks if no i not zero then it swaps with zero pointer
 
 Time Complexity: O(n)
 """
